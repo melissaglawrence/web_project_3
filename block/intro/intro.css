@@ -4,7 +4,15 @@
   max-width: 984px;
   width: 100%;
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1040px) {
+  .intro {
+    margin-left: 48px;
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 780px) {
   .intro {
     width: calc(100% - 48px);
     margin: 92px 24px;
