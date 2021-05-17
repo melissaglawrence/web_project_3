@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="pages/index.css" rel="stylesheet" />
-    <link href="vendor/normalize.css" rel="stylesheet" />
     <title>From Portland to Portland</title>
   </head>
   <body class="page">
     <header class="header">
       <div class="logo"></div>
       <ul class="header__links">
-        <li><a href="#" class="header__lang-link active">En</a></li>
-        <li><a href="#" class="header__lang-link">Es</a></li>
+        <li>
+          <a href="#" target="_blank" class="header__lang-link active">En</a>
+        </li>
+        <li><a href="#" target="_blank" class="header__lang-link">Es</a></li>
       </ul>
     </header>
     <main class="container">
@@ -23,7 +24,7 @@
           An epic bicycle journey from Portland, ME. to Portland, OR
         </p>
         <img
-          src="/images/lead.png"
+          src="images/lead.png"
           alt="Black and white picture of a vast mountainscape"
           class="lead__image"
         />
@@ -65,18 +66,90 @@
       </section>
       <section class="photo-grid">
         <ul class="photo-grid__list">
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
+          <li>
+            <img
+              src="images/item1.png"
+              class="photo-grid__item"
+              alt="empty highway on a gloomy day"
+            />
+          </li>
+          <li class="photo-grid__item">
+            <img
+              src="images/item2.png"
+              class="photo-grid__item"
+              alt="flat desert with refletion of the blue sky"
+            />
+          </li>
+          <li class="photo-grid__item">
+            <img
+              src="images/item3.png"
+              class="photo-grid__item"
+              alt="hundereds of white birds siting and begining to fly away"
+            />
+          </li>
+          <li class="photo-grid__item">
+            <img
+              src="images/item4.png"
+              class="photo-grid__item"
+              alt="foggy mountainscape with lots of trees in the distance"
+            />
+          </li>
+          <li class="photo-grid__item">
+            <img
+              src="images/item5.png"
+              class="photo-grid__item"
+              alt="foggy lake with tall trees lining the shore"
+            />
+          </li>
+          <li class="photo-grid__item">
+            <img
+              src="images/item6.png"
+              class="photo-grid__item"
+              alt="vast blue mountainscape"
+            />
+          </li>
+          <li class="photo-grid__item">
+            <img
+              src="images/item7.png"
+              class="photo-grid__item"
+              alt="overlooking a rocky desert from the top of a mountain"
+            />
+          </li>
+          <li class="photo-grid__item">
+            <img
+              src="images/item8.png"
+              class="photo-grid__item"
+              alt="pink flower in focus against an out of docus background"
+            />
+          </li>
+          <li class="photo-grid__item">
+            <img
+              src="images/item9.png"
+              class="photo-grid__item"
+              alt="overlooking a green grass field"
+            />
+          </li>
+          <li class="photo-grid__item">
+            <img
+              src="images/item10.png"
+              class="photo-grid__item"
+              alt="sandy hills with a lake in the middle"
+            />
+          </li>
+          <li class="photo-grid__item">
+            <img
+              src="images/item11.png"
+              class="photo-grid__item"
+              alt="bright yellow field with birds sitting on the power lines"
+            />
+          </li>
+          <li class="photo-grid__item">
+            <img
+              src="images/item12.png"
+              class="photo-grid__item"
+              alt="empty one lane street in the middle of nowhere with powers lines going down the right side"
+            />
+          </li>
         </ul>
       </section>
       <section class="places">
@@ -84,7 +157,7 @@
           <li class="place">
             <h2 class="place__title">Maine</h2>
             <img
-              src="/images/maine.png"
+              src="images/maine.png"
               class="place__image"
               alt="white lighthouse on the side of a cliff leading to the ocean with the sun going down"
             />
@@ -92,6 +165,7 @@
               <p class="place__url-heading">URL</p>
               <a
                 class="place__link link"
+                target="_blank"
                 href="
                 https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1"
                 >global.llbean.com</a
@@ -117,7 +191,7 @@
           <li class="place">
             <h2 class="place__title">New Hampshire</h2>
             <img
-              src="/images/new-hampshire.png"
+              src="images/new-hampshire.png"
               class="place__image"
               alt="single road going through an orange field of trees"
             />
@@ -126,6 +200,7 @@
               <p class="place__url-heading">URL</p>
               <a
                 class="place__link link"
+                target="_blank"
                 href="https://www.timberland.com/timberlandpro.html"
                 >timberland.com</a
               >
@@ -153,7 +228,7 @@
           <li class="place">
             <h2 class="place__title">New York</h2>
             <img
-              src="/images/new-york.png"
+              src="images/new-york.png"
               class="place__image"
               alt="view of a sunny day in a street surrounded by historic buildings and cars"
             />
@@ -162,6 +237,7 @@
               <p class="place__url-heading">URL</p>
               <a
                 class="place__link link"
+                target="_blank"
                 href="
 https://www.ge.com/about-us"
                 >ge.com</a
@@ -187,7 +263,7 @@ https://www.ge.com/about-us"
           <li class="place">
             <h2 class="place__title">Erie, PA</h2>
             <img
-              src="/images/erie.png"
+              src="images/erie.png"
               class="place__image"
               alt="Building in a forest with a water fall leading to a lake"
             />
@@ -196,6 +272,7 @@ https://www.ge.com/about-us"
               <p class="place__url-heading">URL</p>
               <a
                 class="place__link link"
+                target="_blank"
                 href="
 https://www.fws.gov/refuge/erie"
                 >fws.gov</a
@@ -227,7 +304,7 @@ https://www.fws.gov/refuge/erie"
           <li class="place">
             <h2 class="place__title">Ohio</h2>
             <img
-              src="/images/ohio.png"
+              src="images/ohio.png"
               class="place__image"
               alt="Very tall 3 arm windmill in a bare field"
             />
@@ -236,6 +313,7 @@ https://www.fws.gov/refuge/erie"
               <p class="place__url-heading">URL</p>
               <a
                 class="place__link link"
+                target="_blank"
                 href="
 https://www.cedarpoint.com"
                 >cedarpoint.com</a
@@ -263,33 +341,48 @@ https://www.cedarpoint.com"
         </ul>
       </section>
       <section class="cover">
-        <div class="cover__background">
-          <div class="cover__text">
-            <h2 class="cover__title">Historic Route 66</h2>
-            <p class="cover__subtitle">
-              The Main Street of America from Santa Monica, Cal. to Chicago,
-              Ill.
-            </p>
+        <a
+          href="https://www.nps.gov/nr/travel/route66/maps66.html"
+          target="_blank"
+          class="link"
+        >
+          <div class="cover__background">
+            <div class="cover__text">
+              <h2 class="cover__title">Historic Route 66</h2>
+              <p class="cover__subtitle">
+                The Main Street of America from Santa Monica, Cal. to Chicago,
+                Ill.
+              </p>
+            </div>
+            <div class="cover__overlay"></div>
           </div>
-          <div class="cover__overlay"></div>
-        </div>
+        </a>
       </section>
     </main>
     <footer class="footer">
       <nav>
         <ul class="footer__links">
           <li>
-            <a class="footer__link link" href="https://yandex.com/maps">Maps</a>
+            <a
+              class="footer__link link"
+              target="_blank"
+              href="https://yandex.com/maps"
+              >Maps</a
+            >
           </li>
           <li>
             <a
               class="footer__link link"
+              target="_blank"
               href="https://yandex.com/weather/moscow"
               >Weather</a
             >
           </li>
           <li>
-            <a class="footer__link link" href="https://calendar.yandex.ru"
+            <a
+              class="footer__link link"
+              target="_blank"
+              href="https://calendar.yandex.ru"
               >Calendar</a
             >
           </li>

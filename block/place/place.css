@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 320px) {
   .place {
-    max-width: 288px;
+    max-width: 320px;
     width: 100%;
     margin: 0;
     padding: 0;

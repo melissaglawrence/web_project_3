@@ -1,5 +1,8 @@
 # From Portland to Portland
 
+Link to live Github page:
+https://melissaglawrence.github.io/web_project_3/
+
 # Overview
 
 Responsive website using a brief from Figma
