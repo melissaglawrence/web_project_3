@@ -4,7 +4,7 @@
   line-height: 1.2;
   max-width: 620px;
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 425px) {
   .lead__subtitle {
     font-size: 16px;
     line-height: 1.25;
