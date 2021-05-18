@@ -19,10 +19,10 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .place__paragraph {
     max-width: 288px;
-    margin: 0 16px 25px 16px;
+    margin: 0 auto 25px;
   }
 
   .place__paragraph:last-of-type {

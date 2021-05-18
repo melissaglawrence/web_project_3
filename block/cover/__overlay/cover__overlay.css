@@ -12,5 +12,4 @@
 
 .cover:hover .cover__overlay {
   opacity: 80%;
-  cursor: pointer;
 }

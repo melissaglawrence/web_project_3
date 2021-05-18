@@ -5,11 +5,11 @@ https://melissaglawrence.github.io/web_project_3/
 
 # Overview
 
-Responsive website using a brief from Figma
+Website about the best way to traveling across the U.S. for the most senic views!
 
 # About
 
-Website about the best way to traveling across the U.S. for the most senic views!
+Responsive website using a brief from Figma. Used percentages, calc(), grid, flexbox, and media queries.
 Designed to look good on most common device sizes, including: 1280px, 1024px, 768px, and 320px.
 
 # Goal
