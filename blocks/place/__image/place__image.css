@@ -1,0 +1,36 @@
+.place__image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  grid-row: 2 / 5;
+  grid-column: 1 / 2;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    max-width: 440px;
+    max-height: 440px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .place__image {
+    max-width: 340px;
+    max-height: 340px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .place__image {
+    max-width: 425px;
+    max-height: 425px;
+    margin: 0 auto;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place__image {
+  }
+}

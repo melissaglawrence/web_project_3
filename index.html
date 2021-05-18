@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="vendor/normalize.css" rel="stylesheet" />
     <link href="pages/index.css" rel="stylesheet" />
     <title>From Portland to Portland</title>
   </head>
@@ -12,16 +11,13 @@
     <header class="header">
       <div class="logo"></div>
       <ul class="header__links">
-        <li>
-          <a
-            href="#"
-            target="_blank"
-            class="header__lang-link header__lang-link_active link"
+        <li class="header__lang-link">
+          <a href="#" target="_blank" class="header__lang-link_active link"
             >En</a
           >
         </li>
-        <li>
-          <a href="#" target="_blank" class="header__lang-link link">Es</a>
+        <li class="header__lang-link">
+          <a href="#" target="_blank" class="link">Es</a>
         </li>
       </ul>
     </header>
@@ -32,11 +28,11 @@
           An epic bicycle journey from Portland, ME. to Portland, OR
         </p>
         <img
-          src="images/lead.png"
+          src="images/lead.jpg"
           alt="Black and white picture of a vast mountainscape"
           class="lead__image"
         />
-        <p class="lead__caption">YOUR JOURNEY STARTS HERE</p>
+        <p class="lead__caption">Your journey starts here</p>
       </section>
       <section class="intro">
         <div class="intro__container">
@@ -60,15 +56,15 @@
           </p>
           <ul class="intro__list">
             <li>
-              <span>Distance (miles)</span>
+              <span class="intro__list_st">Distance (miles)</span>
               3,644
             </li>
-            <li><span>Travel time (days)</span> 22</li>
+            <li><span class="intro__list_st">Travel time (days)</span> 22</li>
             <li>
-              <span>Highest point(feet)</span>
+              <span class="intro__list_st">Highest point(feet)</span>
               9,613
             </li>
-            <li><span>Lowest point (feet)</span> -3</li>
+            <li><span class="intro__list_st">Lowest point (feet)</span> -3</li>
           </ul>
         </div>
       </section>
@@ -370,33 +366,27 @@ https://www.cedarpoint.com"
     <footer class="footer">
       <nav>
         <ul class="footer__links">
-          <li>
-            <a
-              class="footer__link link"
-              target="_blank"
-              href="https://yandex.com/maps"
+          <li class="footer__link">
+            <a class="link" target="_blank" href="https://yandex.com/maps"
               >Maps</a
             >
           </li>
-          <li>
+          <li class="footer__link">
             <a
-              class="footer__link link"
+              class="link"
               target="_blank"
               href="https://yandex.com/weather/moscow"
               >Weather</a
             >
           </li>
-          <li>
-            <a
-              class="footer__link link"
-              target="_blank"
-              href="https://calendar.yandex.ru"
+          <li class="footer__link">
+            <a class="link" target="_blank" href="https://calendar.yandex.ru"
               >Calendar</a
             >
           </li>
         </ul>
       </nav>
-      <p class="footer__copyright">&#169; 2021. Melissa Lawrence</p>
+      <p class="footer__copyright">&copy; 2021. Melissa Lawrence</p>
     </footer>
   </body>
 </html>
